@@ -35,7 +35,7 @@ import org.apache.lucene.util.Version;
   
 public class LuceneDemo {  
 	private static final Operator OPERATOR = QueryParser.AND_OPERATOR;
-	private static final Version MATCH_VERSHION = Version.LUCENE_47;
+	private static final Version MATCH_VERSHION = Version.LUCENE_4_9;
     public static void createIndex(List<Document> documentList, String indexPath) {  
         if(null == documentList || documentList.isEmpty()){
         	return;
